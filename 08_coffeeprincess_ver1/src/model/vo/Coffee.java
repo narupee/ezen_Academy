@@ -72,5 +72,3 @@ public class Coffee implements java.io.Serializable {
 	}
 	
 }
-
-

@@ -6,4 +6,3 @@ public class CoffeeException extends Exception{
 		super(msg);
 	}
 }
-

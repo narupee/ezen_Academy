@@ -12,7 +12,7 @@ import model.vo.Coffee;
 
 public class CoffeeDao{
 	
-	public ArrayList<Coffee> openList(){    //openList(): 메서드  //ArrayList<Coffee>: 반환타입
+	public ArrayList<Coffee> openList(){
 		ArrayList<Coffee> list=new ArrayList<Coffee>();
 		
 		try(ObjectInputStream in=new ObjectInputStream(new FileInputStream("coffee.dat"))){
@@ -53,5 +53,3 @@ public class CoffeeDao{
 		}
 	}
 }
-
-

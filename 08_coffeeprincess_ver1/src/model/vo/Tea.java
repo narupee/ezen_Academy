@@ -10,5 +10,3 @@ public class Tea extends Drink{
 		System.out.println("차를 마십니다.");
 	}
 }
-
-

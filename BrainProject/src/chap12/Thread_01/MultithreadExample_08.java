@@ -78,6 +78,7 @@ public class MultithreadExample_08 {
 		area.account2 = new Account("222-222-2222", "성춘향", 10000000);
 		TransferThread thread1 = new TransferThread(area);
 		PrintThread2 thread2 = new PrintThread2(area);
+		
 
 		thread1.start();
 		thread2.start();

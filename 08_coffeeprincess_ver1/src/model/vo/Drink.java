@@ -54,5 +54,3 @@ public class Drink {
 		return "Drink[orderNo="+orderNo+",drinkName="+drinkName+",price="+price+",cups="+"]";
 	}
 }
-
-
